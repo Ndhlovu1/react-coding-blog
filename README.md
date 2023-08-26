@@ -67,3 +67,5 @@ import Header from './components'
 4. You can send multiple data types
 
 5. You can get flexible dynamic content
+
+**THESE ARE LIMITED**
