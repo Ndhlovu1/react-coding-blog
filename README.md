@@ -70,6 +70,8 @@ import Header from './components'
 
 **THESE ARE LIMITED**
 
-### Rendering Html
+### Rendering Html and Props
 
 1. Wrap it in a top level element or use a fragmant `<> and </>`
+
+2. `props.children` is a special prop that is automatically passed to every component
