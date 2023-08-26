@@ -11,9 +11,9 @@ function App() {
     <div>
       <Nav/>
       <Header lastname="Ndhlovu" firstname="Tinomudaishe"/>
-      <Intro1/>
-      <Intro2/>
-      <Intro3/>
+      <Intro1 author="T Ndhlovu"/>
+      <Intro2 author="Sultan T"/>
+      <Intro3 author="TheBackEndGuru"/>
     </div>
   );
 }
