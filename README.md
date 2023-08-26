@@ -159,3 +159,26 @@ Convert it into an Arrow function
 const example = () => {}
 
 ```
+
+Using Arrow Functions in other scenarios
+```js
+[10,20,30,40].forEach(item => item*10)
+```
+Writing the above function in ES5
+
+```js
+[10,20,30,40].forEach(function(item) {
+    return item * 10
+})
+
+//Alternatively
+function(item){
+    return item * 10
+}
+
+```
+
+ES6 FUNCTION equivalent
+```js
+item => item *10
+```
