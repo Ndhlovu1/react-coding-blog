@@ -120,3 +120,22 @@ const Nav = function(props){
 ```js
 <Nav first="Home"/>
 ```
+
+### Arrow Function
+```js
+const Nav = (props) => {
+    return(
+        <ul>
+            <li>{props.first}<li/>
+        <ul/>
+    )
+}
+```
+
+#### A few notable things have changed
+
+1. The `=>` has replaced the keyword function
+
+2. The `(props)` parameter is placed before the function
+
+3. This is a bit shorter and a Key feature of ES6
