@@ -42,5 +42,10 @@ export {Header}
 import {Header}
 ```
 
+### Difference between a Component and a Module
 
-**NB: A componet**
+1. A **Component** is a small piece of functionality whereas
+
+2. A **Module** is a series of components
+
+**NB: Splitting code into several Modules is known as Modular Programming. GREAT FOR REACT!!**
