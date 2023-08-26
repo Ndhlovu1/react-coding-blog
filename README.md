@@ -86,3 +86,37 @@ const styles = {
 }
 ```
 Then to call it simply pass on the variable name in the style e.g. `<h1 style={styles}>`
+
+## Function Expressions and Arrow Functions
+Example of a Componet in React
+
+```js
+function Nav(props){
+
+    return(
+        <ul>
+            <li>{props.first}</li>
+        </ul>
+    )
+}
+
+export default Nav
+```
+
+**The example below is a converion of the above function into a function expression**
+
+```js
+const Nav = function(props){
+    return(
+        <ul>
+            <li>{props.first}<li>
+        <ul/>
+    )
+}
+```
+**The change is now that a nameless function has been asssigned to a const variable Nav**
+
+**_NB: THIS DOESNT CHANGE THE WAY THE FUNCTION IS RENDERED_**
+```js
+<Nav first="Home"/>
+```
