@@ -6,7 +6,6 @@ function Intro3(props){
                 <p>Numerous wonderful ways of styling your React App</p>
                 <p className="link">Read More ...</p>
                 <i> Author: {props.author} </i>
-           
             </div>
         </div>
     )
