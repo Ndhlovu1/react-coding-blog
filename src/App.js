@@ -14,7 +14,7 @@ function App() {
       <Nav/>
       <Header lastname="Ndhlovu" firstname="Tinomudaishe"/>
       
-      <Promo title="Learn React" subheading="From Basics to Mastery"/>
+      <Promo title="Learn React" subheading="From Basics to"/>
 
       <PropsHolder children={  
         <Intro1 author="T Ndhlovu"/> 
