@@ -52,6 +52,14 @@ import Header from './components'
 
 **NB: Splitting code into several Modules is known as Modular Programming. GREAT FOR REACT!!**
 
-## Structuring in React
+### Structuring in React
 
 1. Place all components in a folder named **components** This would then fall under grouping similar files together
+
+### React Props
+
+1. Responsible for passing data between components
+
+2. Arguments are passed like HTML attributes
+
+3. They use the keyword Props
