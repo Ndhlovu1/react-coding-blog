@@ -182,3 +182,30 @@ ES6 FUNCTION equivalent
 ```js
 item => item *10
 ```
+
+### Tenary Operators
+
+```js
+let name = 'Bob';
+
+if (name == 'Bob') {
+    console.log('Hello, Bob');
+} else {
+    console.log('Hello, Friend');
+};
+
+```
+First Half of the Tenary Operator reperesents the if statement `?`
+
+```js
+name = "Bob"
+name == "Bob" ?
+```
+
+Second Half of the Tenary Operator represents the else `:`
+```js
+name == "Bob" ? "Yes, it is Bob" : "I dont know you"
+```
+
+
+
