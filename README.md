@@ -56,7 +56,7 @@ import Header from './components'
 
 1. Place all components in a folder named **components** This would then fall under grouping similar files together
 
-### React Props
+### React Props/Properties
 
 1. Responsible for passing data between components
 
