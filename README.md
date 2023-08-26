@@ -1,4 +1,4 @@
-# React Coding Blog 
+# React Coding Blog - Components Based Architecture
 **LEARN HOW TO CREATE A CODING APP WITH FUNCTIONAL COMPONENTS**
 
 ## Layout Sections
