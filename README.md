@@ -109,8 +109,8 @@ export default Nav
 const Nav = function(props){
     return(
         <ul>
-            <li>{props.first}<li>
-        <ul/>
+            <li>{props.first}</li>
+        </ul>
     )
 }
 ```
@@ -126,8 +126,8 @@ const Nav = function(props){
 const Nav = (props) => {
     return(
         <ul>
-            <li>{props.first}<li/>
-        <ul/>
+            <li>{props.first}</li>
+        </ul>
     )
 }
 ```
@@ -139,3 +139,23 @@ const Nav = (props) => {
 2. The `(props)` parameter is placed before the function
 
 3. This is a bit shorter and a Key feature of ES6
+
+4. Using parenthesis is optional when there is a single parameter
+
+5. **Implicit Return** Works if it is on the same line as the arrow itself
+
+```js
+const Nav = () => {} <ul><li>Home</li></ul>
+```
+
+An alternative would be to take the smallest possible ES5 anonymous function
+
+```js
+const example = function(){}
+```
+
+Convert it into an Arrow function
+```js
+const example = () => {}
+
+```
