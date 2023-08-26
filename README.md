@@ -63,3 +63,7 @@ import Header from './components'
 2. Arguments are passed like HTML attributes
 
 3. They use the keyword Props
+
+4. You can send multiple data types
+
+5. You can get flexible dynamic content
