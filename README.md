@@ -24,3 +24,23 @@
 1. Add a components folder, then add the numerous components for each layout section
 
 2. You'll now have the Nav, Several Intros and Footer components in one folder
+
+### Importing and Exporting
+
+1. Default Export
+```js
+export default Header;
+```
+
+2. Named Export
+```js
+export {Header}
+```
+
+3. Default Import
+```js
+import {Header}
+```
+
+
+**NB: A componet**
