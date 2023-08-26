@@ -6,6 +6,7 @@ import Intro1 from './components/Intro1'
 import Intro2 from './components/Intro2'
 import Intro3 from './components/Intro3'
 import PropsHolder from './components/PropsHolder'
+import Promo from './components/Promo'
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       <Nav/>
       <Header lastname="Ndhlovu" firstname="Tinomudaishe"/>
       
+      <Promo title="Learn React" subheading="From Basics to Mastery"/>
+
       <PropsHolder children={  
         <Intro1 author="T Ndhlovu"/> 
        }/>
@@ -22,7 +25,9 @@ function App() {
           <Intro2 author="Sultan T"/>
       }/>
      
-      {/* <Intro3 author="TheBackEndGuru"/> */}
+      {/* 
+      Alternative way of passing props without using direct childreb
+      <Intro3 author="TheBackEndGuru"/> */}
 
       <PropsHolder
         children = {

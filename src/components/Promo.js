@@ -1,13 +1,20 @@
 // Promo Component
-function Promo(){
+function Promo(props){
     //always place the info you want returned inside a return call
     return(
         <div className="promo-section">
             <div>
-                <h1> Catch this deal</h1>
+                <h1 
+                    style = {{ color:"tomato", fontSize:"20px", fontWeight:"bold" }}
+                >                    
+                    {props.title}
+                </h1>
             </div>
+
             <div>
-                <h2>Subscribe to my newsletter and get all the items at 50% Off!</h2>
+                <h2
+                    style={{ fontSize:"15px" }}
+                >{props.subheading}</h2>
             </div>
         </div>
     );

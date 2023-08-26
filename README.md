@@ -75,3 +75,14 @@ import Header from './components'
 1. Wrap it in a top level element or use a fragmant `<> and </>`
 
 2. `props.children` is a special prop that is automatically passed to every component
+
+3. Using external css requires you to add the link into the index.html file, to add inline css use the `<h1 style={{color:"tomato",fontSize:"40px"}}>` and camelCase words with hyphens. 
+
+4. An alternative is to assign the css variables to a const then simply pass it on like below
+```js
+const styles = {
+    color: "tomato",
+    fontSize: "40px"
+}
+```
+Then to call it simply pass on the variable name in the style e.g. `<h1 style={styles}>`

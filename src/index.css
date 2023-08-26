@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.promo-section {
+  font-weight: bold;
+  line-height: 5px;
+  margin: 30px;
+}
