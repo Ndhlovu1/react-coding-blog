@@ -69,3 +69,7 @@ import Header from './components'
 5. You can get flexible dynamic content
 
 **THESE ARE LIMITED**
+
+### Rendering Html
+
+1. Wrap it in a top level element or use a fragmant `<> and </>`
