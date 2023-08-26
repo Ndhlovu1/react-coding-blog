@@ -40,12 +40,18 @@ export {Header}
 3. Default Import
 ```js
 import {Header}
+//Alternative Way
+import Header from './components'
 ```
 
 ### Difference between a Component and a Module
 
-1. A **Component** is a small piece of functionality whereas
+1. A **Component** is a small piece of functionality whereas e.g Footer
 
 2. A **Module** is a series of components
 
 **NB: Splitting code into several Modules is known as Modular Programming. GREAT FOR REACT!!**
+
+## Structuring in React
+
+1. Place all components in a folder named **components** This would then fall under grouping similar files together
