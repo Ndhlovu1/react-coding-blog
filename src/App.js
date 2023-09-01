@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header'
 import Nav from './components/Nav'
@@ -7,12 +6,19 @@ import Intro2 from './components/Intro2'
 import Intro3 from './components/Intro3'
 import PropsHolder from './components/PropsHolder'
 import Promo from './components/Promo'
+import Toogler from './components/ModeToggler'
+import {Btn2, Btn} from './components/Btn'
+
 
 function App() {
   return (
-    <div>
+    <>
       <Nav/>
       <Header lastname="Ndhlovu" firstname="Tinomudaishe"/>
+
+      <Toogler/>
+      <Btn2/>
+      <Btn/>      
       
       <Promo title="Learn React" subheading="From Basics to"/>
 
@@ -34,7 +40,7 @@ function App() {
           <Intro3 author="TheBackEndGuru"/>
         }/>
 
-    </div>
+    </>
   );
 }
 
