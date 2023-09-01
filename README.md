@@ -207,5 +207,117 @@ Second Half of the Tenary Operator represents the else `:`
 name == "Bob" ? "Yes, it is Bob" : "I dont know you"
 ```
 
+## React Event Errors
+
+Handling Errors in Vanilla Js
+
+e.g
+`(5).toUpperCase()` will throw an error therefore use a `try` and `catch`
+
+```js
+try{
+
+}catch(error){
+    console.log("ERROR \n--YOU CAN ONLY UPPERCASE LETTERS AND WORDS--\n\n",error)
+}
+
+```
+
+**HANDLING ERRORS IN A REACT COMPONENT**
+```js
+function NumBillboard(props){
+    return(
+        <>
+            <h1>
+                {prop.num}
+                // The error is in the missing s on the prop word
+            </h1>
+        </>
+    )
+}
+
+export default NumBillboard;
+```
+
+## HANDLING EVENTS
+
+Presume you want to Open a menu on a website
+
+1. Click a Button is the [ EVENT ]
+
+2. onClick is the [ Event Handler ]
+
+3. Opening the Menu is the [ Action ]to be performed by the onclick
+
+e.g. 
+```html
+
+<button id="js-btn" onclick = "clickHandler()">
+    Click Me
+</button>
+```
+
+REACT HANDLING AN EVENT
+```js
+<button onClick = {clickHandler}>
+    Click Me
+</button>
+
+```
+Alternatively you can pass the data using a prop through the App file
+
+#### There are numerous ways to handle an event and embedd an expression in React
+
+1. Inline anonymous ES5 Function
+
+```js
+<button onClick = {
+    function() {
+        console.log("Passing an inline function directly into the OnClick Listener Evemt")
+    }}> 
+    Click Me
+</button>
+```
+
+2. Inline, anonymous ES6 (arrow function)
+
+```js
+<button onClick = { () => console.log("Passing an inline anonymous Arrow Function directly into the OnClick Listener Evemt")}> 
+    Click Me
+</button>
+```
+
+3. Using a seperate function declaration
+
+```js
+function App(){
+    function sepFunction(){
+        console.log("Passing a seperate function to the onclick listener. This works particularly when the logic is too complex to fit into an anonymous function")
+    }
+
+    <button onClick = {sepFunction}> 
+        Click Me
+    </button>
+
+}
+```
+
+
+4. Using a seperate function expressions
+
+```js
+function App(){
+    const sepFunction = () =>console.log("Passing a function expression to the onclick listener. This is very common in react as it allows our code to span several lines if need be")
+    
+
+    <button onClick = {sepFunction}> 
+        Click Me
+    </button>
+
+}
+```
+
+#### HANDLING EVENTS BASED ON USER INPUT
+
 
 
